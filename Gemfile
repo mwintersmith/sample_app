@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 # resolves 'Could not find a JavaScript runtime...' error
+gem 'thin'
+
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 
